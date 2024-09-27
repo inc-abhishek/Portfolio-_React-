@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This project showcases my skills and work as a web developer, highlighting projects built using modern web technologies. It’s designed to be fully responsive and user-friendly, offering a seamless browsing experience on any device.
 
-🌐 Live Demo : 
+🌐 Live Demo : https://portfolio-react-two-omega.vercel.app/
 
 🛠️ Tech Stack : 
 Frontend: HTML, CSS, JavaScript, React, Tailwind CSS
