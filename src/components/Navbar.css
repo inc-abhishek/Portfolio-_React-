@@ -1,0 +1,53 @@
+:root {
+  --bg-color: #0d0d0d; 
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background-color: var(--bg-color); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  .navbar {
+    margin-bottom: 0; 
+  }
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem; 
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #bb86fc; 
+}
+
+.dark-mode-toggle {
+  position: absolute; 
+  right: 2rem;        
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}

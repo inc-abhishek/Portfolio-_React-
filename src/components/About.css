@@ -1,0 +1,84 @@
+/* About.css */
+
+.about-section {
+    padding: 3rem 2rem;
+    background-color: var(--bg-color); /* Same as hero section */
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222; /* Dark background */
+    padding: 3rem;
+    border-radius: 10px;
+  }
+  
+  .about-content {
+    max-width: 50%;
+    color: blanchedalmond;
+    font-size: 1.3rem; /* Bigger font size */
+    font-weight: bold; /* Bolder text */
+  }
+  
+  .about-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1.9rem;
+    font-weight: bold;
+    color: blanchedalmond; /* Make the heading bold */
+    text-align: center;
+  }
+  
+  .about-content span {
+    color:#61dafb; /* Accent color */
+  }
+  
+  .highlight {
+    color: #d76df3; /* Highlighted text color */
+  }
+  
+  .about-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.3rem;
+  }
+  
+  .about-content li {
+    margin: 0.75rem 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-content li span {
+    margin-right: 0.5rem;
+  }
+  
+  .quote {
+    margin-top: 2rem;
+    font-style: italic;
+    color:#61dafb;
+  }
+  
+  .about-image {
+    max-width: 40%;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional rounded corners for the image */
+  }
+  
+  /* Make sure content and image blend well together */
+  .about-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(215,109,243,0.1), rgba(36,36,62,0.8));
+    z-index: -1; /* Make the background effect sit behind the content */
+    border-radius: 10px;
+  }
+  
